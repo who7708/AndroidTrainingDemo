@@ -17,12 +17,12 @@ add_library( # Sets the name of the library. ——>2.生成函数库的名字�
              SHARED
 
              # Provides a relative path to your source file(s). ——> 依赖的cpp文件，每添加一个 C/C++文件都要添加到这里，不然不会被编译
-             src/main/cpp/native-lib.cpp
-             src/main/cpp/native-field.cpp
-             src/main/cpp/native-method.cpp
-             src/main/cpp/native-params.cpp
-             src/main/cpp/native-string.cpp
-             src/main/cpp/dynamic-register-jni.cpp
+             native-lib.cpp
+             native-field.cpp
+             native-method.cpp
+             native-params.cpp
+             native-string.cpp
+             dynamic-register-jni.cpp
              )
 
 # Searches for a specified prebuilt library and stores the path as a
